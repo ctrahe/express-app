@@ -22,3 +22,13 @@ Running locally with auto-reload:
 yarn global add nodemon
 nodemon index.ts
 ```
+
+Needed for TypeScript: 
+```
+# needed to run typescript
+yarn global add typescript ts-node
+# type declaration libraries
+yarn add @types/express @types/node
+# generate tsconfig.json
+tsc --init 
+```
