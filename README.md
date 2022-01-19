@@ -23,7 +23,7 @@ yarn global add nodemon
 nodemon index.ts
 ```
 
-Needed for TypeScript: 
+Needed for TypeScript:
 ```
 # needed to run typescript
 yarn global add typescript ts-node
@@ -32,3 +32,7 @@ yarn add @types/express @types/node
 # generate tsconfig.json
 tsc --init 
 ```
+
+## References
+
+https://www.geeksforgeeks.org/how-to-use-express-in-typescript/ 
